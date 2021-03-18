@@ -1,0 +1,53 @@
+cmn:
+  common:
+    group: '组'
+    groups: '组群'
+    action:
+      save: '保存'
+      edit: '编辑'
+      like: '喜欢'
+      unlike: '不喜欢'
+      cancel: '取消'
+  comment_form:
+    delete_comment: '删掉评论'
+    confirm_delete_message: '你确定你想要删掉这条评论吗？'
+  navbar:
+    search:
+      discussions: '讨论'
+  discussion_form:
+    group_label: '组'
+    title_label: '标题'
+    context_label: '上下文'
+  membership_request_form:
+    name_label: 名字
+    email_label: 邮件
+  group_page:
+    options_label: '选项'
+    options:
+      label: '选项'
+  document:
+    form:
+      title_label: 名字
+  membership_requests_page:
+    approve: 批准
+  memberships_page:
+    members: '成员'
+    name_label: '名字'
+  profile_page:
+    picture_label: '图片'
+    name_label: '名字'
+    email_label: '邮件'
+    locale_label: '语言'
+  thread_context:
+    close_thread: '关闭'
+  delete_comment_dialog:
+    title: '删掉评论'
+    question: '你确定你想要删掉这条评论吗？'
+    confirm: '删掉评论'
+  new_comment_item:
+    context_menu:
+      delete_comment: '删掉评论'
+  hint:
+    vote: '任何时候你都可以更改位置'
+  poll_common_form:
+    closed: 关闭了

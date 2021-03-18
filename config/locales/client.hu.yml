@@ -1,0 +1,313 @@
+hu:
+  common:
+    confirm_discard_changes: Elveti a módosításait?
+    time:
+      am: de
+      pm: du
+    closing_in: 'Zárás {{time}}'
+    closed_ago: 'Zárva {{time}}'
+    volume: 'Hangerő'
+    notification_volume: 'Értesítési hangerő'
+    group: 'Csoport'
+    groups: 'Csoportok'
+    help: 'Segítség'
+    privacy:
+      privacy: 'Adatvédelem'
+      public: 'Nyilvános'
+      open: 'Nyitva'
+      closed: 'Zárva'
+      private: 'Zártkörű'
+      secret: 'Titkos'
+    selected: 'Kiválasztva'
+    date_range:
+      today: 'Ma'
+      yesterday: 'Tegnap'
+      thisweek: 'Ezen a héten'
+      thismonth: 'Ebben a hónapban'
+      older: 'Régebbi'
+    more_help: 'További segítség'
+    models:
+      proposal: 'Javaslat'
+    copy: 'Másolás'
+    copy_text: 'Szöveg másolása'
+    copied: 'Vágólapra másolva'
+    action:
+      next: 'Következő'
+      close: 'Bezár'
+      save: 'Mentés'
+      save_changes: 'Változások mentése'
+      update_settings: 'Beállítások frissítése'
+      reply: 'Válasz'
+      edit: 'Módosítás'
+      remove: 'Visszavonás'
+      like: 'Tetszik'
+      back: 'Vissza'
+      unlike: 'Nem tetszik'
+      update: 'Frissítés'
+      cancel: 'Mégse'
+      show_more: "Bővebben"
+      view_all: "Mutasd mind"
+      new_thread: "Új téma"
+      add_subgroup: 'Alcsoport létrehozása'
+      loading: 'Betöltés'
+      translate: 'Fordítás'
+      translated: '"Bing-Translator"-ral fordítva'
+      upload: 'Feltöltés'
+      uploading: 'Feltöltés'
+      load_more: 'Több'
+      share: Megosztás
+      ok: Rendben
+      retry: Újra
+      done: Kész
+      start: Indítás
+      delete: Törlés
+      unsubscribe: Leiratkozás
+      subscribe: Feliratkozás
+      resend: Újraküldés
+      send: Küldés
+    formatting_help:
+      label: 'Formázás'
+  ordinal:
+    _1: '1.'
+    _2: '2.'
+    _3: '3.'
+    _4: '4.'
+    _5: '5.'
+    _6: '6.'
+    _7: '7.'
+    _8: '8.'
+    _9: '9.'
+    _10: '10.'
+  error_page:
+    forbidden: 'Ehhez nincs jogosultságod.'
+    page_not_found: 'Ezt nem találjuk. Lehet, hogy törölték vagy áthelyezték.'
+    internal_server_error: 'Sajnáljuk, de valami hiba történt. Kérlek próbáld újra.'
+  verify_stances:
+    verify: Ellenőrzés
+  volume_levels:
+    loud: 'Hangos'
+    normal: 'Normál'
+    quiet: 'Csendes'
+    mute: 'Néma'
+    unmute: 'Néma üzemmód kikapcsolása'
+  change_volume_form:
+    loud_label: "Összes tevékenység"
+    quiet_label: "Nincs új e-mail"
+    mute_label: "Néma"
+    discussion:
+      title: "Email beállítások {{title}}-hez"
+      loud_description: "Azonnali értesítés e-mailben, új tevékenység esetén ezen a témakörön belül."
+      normal_description: "Azonnali értesítés e-mailben, amennyiben egy javaslat született, zárás következik vagy ha összegzést tettek közzé."
+      quiet_description: "Ne küldj e-mailt ezen témakör változásairól."
+      apply_to_all: "Ezen beállítások alkalmazása a csoporton belüli összes témakörre."
+      messages:
+        loud: "Azonnali értesítés e-mailben, új tevékenység esetén ezen a témakörön belül."
+        normal: "Azonnali értesítés e-mailben, új javaslat esetén ezen a témakörön belül."
+        quiet: "Ne küldj e-mailt ezen témakör változásairól."
+    membership:
+      title: "Email beállítások {{title}}-hez"
+      loud_description: "Azonnali értesítés e-mailben, új tevékenység esetén ezen csoporton belül."
+      quiet_description: "Ne küldj e-mailt ezen csoport tevékenységeiről."
+      apply_to_all: "Ezen beállítások alkalmazása minden csoportomra."
+      messages:
+        loud: "Értesítés e-mailben ezen csoporton belüli összes tevékenységről."
+        quiet: "Ne küldj e-mailt ezen csoport tevékenységeiről."
+    all_groups:
+      messages:
+        loud: "Értesítés e-mailben minden csoport összes tevékenységről aminek tagja vagyok."
+        quiet: "Ne küldj e-mailt egyik csoportom tevékenységeiről sem."
+    user:
+      title: E-mail beállítások új csoportokra
+      loud_description: "Azonnali értesítés e-mailben, új tevékenység esetén valamennyi új csoportomon belül."
+      quiet_description: "Ne küldj e-mailt az új csoportjaim tevékenységeiről."
+      apply_to_all: "Ezen beállítások alkalmazása minden csoportomra."
+      messages:
+        loud: "Értesítés e-mailben az új csoportjaim belüli összes tevékenységről."
+        quiet: "Ne küldj e-mailt új csoportokról."
+  mute_explanation_modal:
+    mute_thread: Témakör némítása
+  inbox:
+    clear: 'Töröl'
+    latest: 'Legutóbbi'
+    unread: 'Olvasatlan'
+    closing_in: 'Zárás'
+  sign_up_form:
+    password_label: 'Jelszó:'
+    password_confirmation_label: 'Jelszó megismétlése:'
+  signed_out_modal:
+    ok: "Rendben"
+  comment_form:
+    aria_label: 'Hozzászólás'
+    attachments:
+      remove_attachment: 'Csatolmány eltávolítása'
+    messages:
+      created: 'Hozzászólás megjelenítve'
+      replied: '{{name}} értesítve a válaszról'
+      updated: 'Hozzászólás frissítve'
+      destroyed: 'Hozzászólás törölve'
+    edit_comment: 'Hozzászólást módosít'
+    delete_comment: 'Hozzászólás törlése'
+    cancel_reply: 'Válasz törlése'
+    confirm_delete_message: 'Biztosan törölni akarod ezt a hozzászólást?'
+    submit_button:
+      label: 'Bejegyzés'
+    private_privacy_notice: 'A hozzászólásod csak a {{groupName}} csoport tagjainak lesz látható.'
+    public_privacy_notice: 'A hozzászólás mindenki számára nyilvános lesz.'
+    sign_in: "Lépj be, hogy hozzászolhass a témakörhöz."
+  sidebar:
+    aria_labels:
+      groups_list: 'Csoportok'
+  navbar:
+    recent_title: 'Irány az eszközökhöz'
+    unread_title: 'Olvasatlan tevékenységek megtekintése'
+    notifications: 'Értesítések'
+    search:
+      results_aria_label: 'Keresési eredmények'
+      no_results: 'Nem található eredmény erre a témakörre'
+      close: 'Kereső panel bezárása'
+      placeholder: 'Keresés'
+      loading: 'Eredmények betöltése...'
+      discussions: 'Szálak'
+      proposals: 'Javaslatok'
+      comments: 'Hozzászólások'
+    sign_in: 'Bejelentkezés'
+    toggle_sidebar: 'Oldal panel ki/be kapcsolása'
+  user_dropdown:
+    help: 'Sugó'
+    sign_out: 'Kijelentkezés'
+  start_menu:
+    start_group: 'Csoport indítása'
+    start_subgroup: 'Alcsoport indítása'
+    start_thread: 'Témakör indítása'
+    invite_people: 'Hívj meg másokat'
+  notifications:
+    header: "Értesítések"
+    no_notifications: "Nincsenek új értesítések."
+    publish_outcome: "Eredmény közlése"
+    motion_closing_soon: "Javaslat hamarosan zárul: <strong>{{title}}</strong>"
+  position_buttons_panel:
+    heading: Szólj bele
+  extend_proposal_form:
+    aria_label: A határidő módosítása
+    title: 'A határidő módosítása'
+  discussion_form:
+    new_discussion_title: 'Új téma indítása'
+    group_label: 'Csoport'
+    title_label: 'Cím'
+    title_placeholder: 'Mit szeretnél megtárgyalni?'
+    context_label: 'Leírás'
+    privacy_label: 'Adatvédelem'
+  join_group_button:
+    join_group: Kapcsolódj a csoporthoz
+  membership_request_form:
+    heading: Kérj belépőt a csoportba
+    name_label: Név
+    email_label: E-mail
+  group_page:
+    group_logo: 'Csoport logó'
+    new_photo: 'Új fotó'
+    members: 'Tagok'
+    visibility_label: 'Láthatóság'
+    options_label: 'Lehetőségek'
+    options:
+      label: 'Lehetőségek'
+      edit_group: 'A csoport beállításainak szerkesztése'
+      leave_group: 'Kilépés a csoportból'
+      deactivate_group: 'Csoport deaktiválása'
+    volume:
+      loud: Emailezzen ha aktivitás van.
+      quiet: Nem kérek emailt erről a csoportról. Az aktivitások megjelennek a műszerfalon.
+      mute: Ez a csoport ne jelenjen meg a műszerfalon és ne értesítsen amíg nem @említenek meg.
+  description_card:
+    title: 'A csoport leírása'
+  leave_group_form:
+    aria_label: 'Kilépés a csoportból'
+    title: 'Kilépés a csoportból'
+  archive_group_form:
+    aria_label: 'Csoport deaktiválása'
+    title: 'Csoport deaktiválása'
+  group_form:
+    start_group_heading: 'Indíts egy csoportot'
+    start_subgroup_heading: 'Indíts egy alcsoportot'
+    privacy: 'Adatvédelem'
+    members_can_start_discussions: 'A tagok felvethetnek új támékat.'
+    submit_update: 'Beállítások frissítése'
+  documents_page:
+    confirm_remove_title: Csatolmány eltávolítása
+  document:
+    form:
+      title_label: Név
+  membership_requests_page:
+    approve: Érvényesítés
+    ignore: Figyelmen kívül hagyás
+  group_previous_proposals_card:
+    heading: Előző javaslatok
+  invitation_form:
+    invite_people: 'Hívj meg másokat'
+    copy_link: 'Másolás'
+    send: 'Küldés'
+    done: 'Kész'
+  memberships_page:
+    members: 'Tagok'
+    name_label: 'Név'
+    coordinator_label: 'Koordonátor'
+    remove_member_label: 'Visszavonás'
+  profile_page:
+    profile: 'Profil'
+    picture_label: 'Kép'
+    name_label: 'Név'
+    username_label: 'Felhasználónév'
+    email_label: 'E-mail'
+    locale_label: 'Nyelv'
+  dashboard_page:
+    aria_label: 'Műszerfal'
+    no_groups:
+      start: Indítás
+      or: vagy
+    mark_as_read: Olvasottként jelöl
+    filtering:
+      proposals: Javaslatok
+      muted: Némított
+    threads_from:
+      today: 'Ma'
+      yesterday: 'Tegnap'
+  inbox_page:
+    no_groups:
+      start: Indítás
+      or: vagy
+  discussion:
+    started_by: '<strong>{{name}}</strong> indította'
+  activity_card:
+    unread: Olvasatlan
+    latest: Legutóbbi
+  thread_group:
+    aria_label: 'Csoport neve'
+  thread_context:
+    close_thread: 'Bezár'
+    delete_thread: 'Törlés'
+  delete_comment_dialog:
+    title: 'Hozzászólás törlése'
+    question: 'Biztosan törölni akarod ezt a hozzászólást?'
+    confirm: 'Hozzászólás törlése'
+  new_comment_item:
+    context_menu:
+      edit_comment: 'Hozzászólást módosít'
+      delete_comment: 'Hozzászólás törlése'
+  contact_message_form:
+    name_label: 'Neved'
+    email_label: 'E-mail címed'
+    message_label: 'Üzeneted'
+  hint:
+    context: 'Hogyan használd a téma leírását'
+    discussion: 'Hogyan kezdj izgalmas témát'
+    invitation: 'Hogyan írj jó meghívót'
+    proposal: 'Hogyan írj egyértelmű javaslatot'
+    vote: 'Bármikor megváltoztathatod az álláspontodat'
+  registered_app_form:
+    messages:
+      logo_changed: Logó frissítve.
+  poll_common_form:
+    closed: Zárva
+    start: Indítás
+  poll_common_subscribe_form:
+    subscribe: Feliratkozás
